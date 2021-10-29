@@ -17,6 +17,13 @@ public class Facebook_Login {
 		WebElement txtUserName = driver.findElement(By.id("inputEmail"));
 		txtUserName.sendKeys("srisai.veerakumar@gmail.com");
 		
+		WebElement txtPass = driver.findElement(By.id("Pass"));
+		txtPass.sendKeys("12356");
+		
+		WebElement btnClick = driver.findElement(By.name("Button"));
+		btnClick.click();
+
+		
 	}
 
 }
