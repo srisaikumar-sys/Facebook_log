@@ -22,7 +22,13 @@ public class Facebook_Login {
 		
 		WebElement btnClick = driver.findElement(By.name("Button"));
 		btnClick.click();
-
+		
+		
+		WebElement txtPaass = driver.findElement(By.id("Pass"));
+		txtPaass.sendKeys("12356");
+		
+		WebElement btnCllick = driver.findElement(By.name("Button"));
+		btnCllick.click();
 		
 	}
 
